@@ -21,7 +21,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
  <sim>
 
   <description>1903 Wright Flyer (UIUC)</description>
-  <author>Jim Wilson</author>
+  <author>Jim Wilson (3D), Michael Selig, PhD (FDM)</author>
 
   <flight-model>larcsim</flight-model>
   <aero>uiuc</aero>
