@@ -4,6 +4,49 @@
 
  <path>WrightFlyer-pb-jw.ac</path>
 
+ <!-- object selection -->
+
+ <!-- hide hat if view is pilot's eye (or very near Orville's face) -->
+ <animation>
+  <type>select</type>
+  <object-name>OrvilleHat</object-name>
+  <condition>
+   <and>
+     <or>
+     <greater-than>
+      <property>/sim/current-view/x-offset-m</property>
+      <value>-0.41</value>
+     </greater-than>
+     <less-than>
+      <property>/sim/current-view/x-offset-m</property>
+      <value>-0.51</value>
+     </less-than>
+     </or>
+     <or>
+     <greater-than>
+      <property>/sim/current-view/z-offset-m</property>
+      <value>-0.77</value>
+     </greater-than>
+     <less-than>
+      <property>/sim/current-view/z-offset-m</property>
+      <value>-0.87</value>
+     </less-than>
+     </or>
+   </and>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Disks</object-name>
+  <condition>
+   <greater-than>
+    <property>/engines/engine[0]/rpm</property>
+    <value>800</value>
+   </greater-than>
+  </condition>
+ </animation>
+
  <!-- animations -->
 
  <animation>
@@ -144,6 +187,76 @@
  <animation>
   <type>rotate</type>
   <object-name>ElevatorControlStick</object-name>
+  <property>/controls/elevator</property>
+  <factor>-11</factor> <!-- check -->
+  <center>
+   <x-m>-0.91</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.61</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>OrvilleLeftArm</object-name>
+  <object-name>OrvilleLeftForeArm</object-name>
+  <property>/controls/elevator</property>
+  <factor>5.5</factor> <!-- check -->
+  <center>
+   <x-m>-0.56</x-m>
+   <y-m>0.75</y-m>
+   <z-m>-0.27</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>OrvilleLeftHandForeArm</object-name>
+  <property>/controls/elevator</property>
+  <factor>-2</factor> <!-- check -->
+  <center>
+   <x-m>-0.62</x-m>
+   <y-m>0.75</y-m>
+   <z-m>-0.58</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>OrvilleLeftHand</object-name>
+  <property>/controls/elevator</property>
+  <factor>-5.5</factor> <!-- check -->
+  <center>
+   <x-m>-0.97</x-m>
+   <y-m>0.75</y-m>
+   <z-m>-0.25</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>OrvilleLeftHand</object-name>
   <property>/controls/elevator</property>
   <factor>-11</factor> <!-- check -->
   <center>
