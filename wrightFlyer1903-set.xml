@@ -30,7 +30,6 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
   <auto-coordination>true</auto-coordination>
 
   <sound>
-   <audible>true</audible>
    <path>Aircraft/wrightFlyer1903/Sounds/uiuc/wrightFlyer1903-sound.xml</path>
   </sound>
 
