@@ -4,4 +4,60 @@
 
  <path>WrightFlyer-pb-jw.ac</path>
 
+ <!-- animations -->
+
+ <animation>
+  <type>spin</type>
+  <object-name>RightPropeller</object-name>
+  <object-name>CogRightPropShaft</object-name>
+  <property>/engines/engine[0]/rpm</property>
+  <factor>.133</factor>
+  <center>
+   <x-m>1.56</x-m>
+   <y-m>1.69</y-m>
+   <z-m>0.53</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>LeftPropeller</object-name>
+  <object-name>CogLeftPropShaft</object-name>
+  <property>/engines/engine[0]/rpm</property>
+  <factor>.133</factor>
+  <center>
+   <x-m>1.56</x-m>
+   <y-m>-1.69</y-m>
+   <z-m>0.53</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Rudder</object-name>
+  <property>/controls/rudder</property>
+  <factor>20</factor> <!-- check -->
+  <center>
+   <x-m>2.96</x-m>
+   <y-m>0</y-m>
+   <z-m>0.16</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
 </PropertyList>
