@@ -71,5 +71,9 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
    </config>
   </view>
 
+  <hud>
+   <enable3d>false</enable3d>
+  </hud>
+
  </sim>
 </PropertyList>
