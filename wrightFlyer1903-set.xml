@@ -40,7 +40,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
   </panel>
 
   <panel_2>
-   <path>Aircraft/c172/Panels/c172-trans-mini-panel.xml</path>
+   <path>Aircraft/Generic/Panels/generic-trans-mini-panel.xml</path>
   </panel_2>
 
   <model>
