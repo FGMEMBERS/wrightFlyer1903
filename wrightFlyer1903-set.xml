@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<PropertyList include="wrightFlyer1903-v1-nl-uiuc-set.xml">
+ <sim>
+  <description>Alias for wrightFlyer1903-v1-nl-uiuc</description>
+ </sim>
+</PropertyList>
