@@ -42,7 +42,6 @@
   </axis>
  </animation>
 
-
  <animation>
   <type>rotate</type>
   <object-name>Rudder</object-name>
@@ -57,6 +56,105 @@
    <x>0</x>
    <y>0</y>
    <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>ElevatorTop</object-name>
+  <property>/controls/elevator</property>
+  <factor>-11</factor> <!-- check -->
+  <center>
+   <x-m>-2.98</x-m>
+   <y-m>0</y-m>
+   <z-m>0.37</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>ElevatorBottom</object-name>
+  <property>/controls/elevator</property>
+  <factor>-11</factor> <!-- check -->
+  <center>
+   <x-m>-2.98</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.32</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>ElevatorTieCenter</object-name>
+  <object-name>ElevatorTieRight</object-name>
+  <object-name>ElevatorTieLeft</object-name>
+  <object-name>ElevatorSprocket</object-name>
+  <property>/controls/elevator</property>
+  <factor>-11</factor> <!-- check -->
+  <center>
+   <x-m>-2.95</x-m>
+   <y-m>0</y-m>
+   <z-m>0.02</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>ElevatorRearPostCenter</object-name>
+  <object-name>ElevatorRearPostRight</object-name>
+  <object-name>ElevatorRearPostLeft</object-name>
+  <property>/controls/elevator</property>
+  <factor>0.075</factor> <!-- check -->
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>ElevatorSpringPostCenter</object-name>
+  <object-name>ElevatorSpringPostRight</object-name>
+  <object-name>ElevatorSpringPostLeft</object-name>
+  <property>/controls/elevator</property>
+  <factor>-0.05</factor> <!-- check -->
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>ElevatorControlStick</object-name>
+  <property>/controls/elevator</property>
+  <factor>-11</factor> <!-- check -->
+  <center>
+   <x-m>-0.91</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.61</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
   </axis>
  </animation>
 
