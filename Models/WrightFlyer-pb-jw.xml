@@ -222,9 +222,9 @@
 
  <animation>
   <type>rotate</type>
-  <object-name>OrvilleLeftHandForeArm</object-name>
+  <object-name>OrvilleLeftForeArm</object-name>
   <property>/controls/elevator</property>
-  <factor>-2</factor> <!-- check -->
+  <factor>-8</factor> <!-- check -->
   <center>
    <x-m>-0.62</x-m>
    <y-m>0.75</y-m>
@@ -241,11 +241,11 @@
   <type>rotate</type>
   <object-name>OrvilleLeftHand</object-name>
   <property>/controls/elevator</property>
-  <factor>-5.5</factor> <!-- check -->
+  <factor>11</factor> <!-- check -->
   <center>
-   <x-m>-0.97</x-m>
+   <x-m>-1.00</x-m>
    <y-m>0.75</y-m>
-   <z-m>-0.25</z-m>
+   <z-m>-0.37</z-m>
   </center>
   <axis>
    <x>0</x>
