@@ -47,7 +47,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
    <path>Aircraft/wrightFlyer1903/Models/WrightFlyer-pb-jw.xml</path>
   </model>
 
-  // pilot's view
+  <!-- pilot's view -->
   <view>
    <internal archive="y">true</internal>
    <config>
@@ -56,7 +56,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
      <z-offset-m archive="y">-0.82</z-offset-m>
    </config>
   </view>
-  // chase view
+  <!-- chase view -->
   <view>
    <config>
      <x-offset-m archive="y">0</x-offset-m>
@@ -74,6 +74,10 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
   <hud>
    <enable3d>false</enable3d>
   </hud>
+
+  <help>
+   <title>1903 Wright Flyer</title>
+  </help>
 
  </sim>
 </PropertyList>
