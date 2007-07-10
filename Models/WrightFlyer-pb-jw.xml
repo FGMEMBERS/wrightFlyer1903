@@ -41,7 +41,7 @@
   <object-name>Disks</object-name>
   <condition>
    <greater-than>
-    <property>/engines/engine[0]/rpm</property>
+    <property>engines/engine[0]/rpm</property>
     <value>800</value>
    </greater-than>
   </condition>
@@ -56,11 +56,11 @@
   <condition>
    <and>
    <less-than>
-    <property>/controls/flight/aileron</property>
+    <property>controls/flight/aileron</property>
     <value>0.5</value>
    </less-than>
    <greater-than>
-    <property>/controls/flight/aileron</property>
+    <property>controls/flight/aileron</property>
     <value>-0.5</value>
    </greater-than>
    </and>
@@ -73,7 +73,7 @@
   <object-name>WingBottomWarpLeft</object-name>
   <condition>
    <less-than>
-    <property>/controls/flight/aileron</property>
+    <property>controls/flight/aileron</property>
     <value>-0.5</value>
    </less-than>
   </condition>
@@ -85,7 +85,7 @@
   <object-name>WingBottomWarpRight</object-name>
   <condition>
    <greater-than>
-    <property>/controls/flight/aileron</property>
+    <property>controls/flight/aileron</property>
     <value>0.5</value>
    </greater-than>
   </condition>
@@ -97,7 +97,7 @@
   <type>spin</type>
   <object-name>RightPropeller</object-name>
   <object-name>CogRightPropShaft</object-name>
-  <property>/engines/engine[0]/rpm</property>
+  <property>engines/engine[0]/rpm</property>
   <factor>.133</factor>
   <center>
    <x-m>1.56</x-m>
@@ -115,7 +115,7 @@
   <type>spin</type>
   <object-name>LeftPropeller</object-name>
   <object-name>CogLeftPropShaft</object-name>
-  <property>/engines/engine[0]/rpm</property>
+  <property>engines/engine[0]/rpm</property>
   <factor>.133</factor>
   <center>
    <x-m>1.56</x-m>
@@ -132,7 +132,7 @@
  <animation>
   <type>rotate</type>
   <object-name>Rudder</object-name>
-  <property>/controls/flight/rudder</property>
+  <property>controls/flight/rudder</property>
   <factor>20</factor> <!-- check -->
   <center>
    <x-m>2.96</x-m>
@@ -149,7 +149,7 @@
  <animation>
   <type>rotate</type>
   <object-name>ElevatorTop</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>-11</factor> <!-- check -->
   <center>
    <x-m>-2.98</x-m>
@@ -166,7 +166,7 @@
  <animation>
   <type>rotate</type>
   <object-name>ElevatorBottom</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>-11</factor> <!-- check -->
   <center>
    <x-m>-2.98</x-m>
@@ -186,7 +186,7 @@
   <object-name>ElevatorTieRight</object-name>
   <object-name>ElevatorTieLeft</object-name>
   <object-name>ElevatorSprocket</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>-11</factor> <!-- check -->
   <center>
    <x-m>-2.95</x-m>
@@ -205,7 +205,7 @@
   <object-name>ElevatorRearPostCenter</object-name>
   <object-name>ElevatorRearPostRight</object-name>
   <object-name>ElevatorRearPostLeft</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>0.075</factor> <!-- check -->
   <axis>
    <x>0</x>
@@ -219,7 +219,7 @@
   <object-name>ElevatorSpringPostCenter</object-name>
   <object-name>ElevatorSpringPostRight</object-name>
   <object-name>ElevatorSpringPostLeft</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>-0.05</factor> <!-- check -->
   <axis>
    <x>0</x>
@@ -231,7 +231,7 @@
  <animation>
   <type>rotate</type>
   <object-name>ElevatorControlStick</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>-11</factor> <!-- check -->
   <center>
    <x-m>-0.91</x-m>
@@ -250,7 +250,7 @@
   <type>rotate</type>
   <object-name>OrvilleLeftArm</object-name>
   <object-name>OrvilleLeftForeArm</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>5.5</factor> <!-- check -->
   <center>
    <x-m>-0.56</x-m>
@@ -267,7 +267,7 @@
  <animation>
   <type>rotate</type>
   <object-name>OrvilleLeftForeArm</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>-8</factor> <!-- check -->
   <center>
    <x-m>-0.62</x-m>
@@ -284,7 +284,7 @@
  <animation>
   <type>rotate</type>
   <object-name>OrvilleLeftHand</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>11</factor> <!-- check -->
   <center>
    <x-m>-1.00</x-m>
@@ -301,7 +301,7 @@
  <animation>
   <type>rotate</type>
   <object-name>OrvilleLeftHand</object-name>
-  <property>/controls/flight/elevator</property>
+  <property>controls/flight/elevator</property>
   <factor>-11</factor> <!-- check -->
   <center>
    <x-m>-0.91</x-m>
