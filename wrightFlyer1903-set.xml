@@ -26,7 +26,6 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
   <flight-model>larcsim</flight-model>
   <aero>uiuc</aero>
   <uiuc-type>uiuc-prop</uiuc-type>
-  <aircraft-dir>Aircraft/UIUC/wrightFlyer1903-v1-nl</aircraft-dir>
 
   <auto-coordination>true</auto-coordination>
 
