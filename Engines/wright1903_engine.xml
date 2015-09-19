@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--
+  File:     wright1903.xml
+  Author:   Aero-Matic v 0.82
+
+  Inputs:
+    name:           wright1903
+    type:           piston
+    power:          12 hp
+    augmented?      no
+    injected?       no
+-->
+
+<!--
+ Sources:
+ http://www.wright-brothers.org/Information_Desk/Just_the_Facts/Engines_&_Props/1903_Engine.htm
+ http://www.wright-brothers.org/Information_Desk/Help_with_Homework/Help_with_Homework_Intro/Flyer_Specifications_11x17.pdf
+ https://en.wikipedia.org/wiki/Wright_Flyer#Specifications_.28Wright_Flyer.29
+
+ Specifications:
+
+    Cylinders: 4
+    Stroke: 4 in (10.2 cm)
+    Bore: 4 in (10.2 cm)
+    Displacement: 201 in3 (3.3 l3)
+    Horsepower: 12
+    Ignition: Make-and-brake powered by low-tension (10-volt) magneto.
+    Unique features: Aluminum block, no carburetor.
+    Weight of engine: 152 lbs (68.95 kg)
+    Weight of magneto: 18 lbs (8.16 kg)
+
+ "The completed engine weighed 180 pounds and developed 12 horsepower at 1,025 revolutions per minute. [It actually produced nearly 16 hp when it was first started, by this dropped to 12 hp as the engine heated up.]
+-->
+
+<piston_engine name="wright1903">
+  <minmp unit="INHG">          6.0 </minmp>
+  <maxmp unit="INHG">         28.5 </maxmp>
+  <displacement unit="IN3"> 201.0 </displacement>
+  <maxhp>        12.00 </maxhp>
+  <cycles>         4.0 </cycles>
+  <idlerpm>     1025.0 </idlerpm>
+  <maxrpm>      1025.0 </maxrpm>
+  <maxthrottle>    1.0 </maxthrottle><!-- Deprecated -->
+  <minthrottle>    0.1 </minthrottle><!-- Deprecated -->
+  <sparkfaildrop>  0.1 </sparkfaildrop>
+  <stroke unit="IN">  4.0  </stroke>
+  <bore unit="IN">    4.0 </bore>
+  <cylinders>         4.0  </cylinders>
+  <volumetric-efficiency> 0.85 </volumetric-efficiency>
+<!-- Optional items that affect engine performance -->
+ <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
+ <!--<bsfc>           0.45 </bsfc>-->
+ <!--<compression-ratio> 8.0 </compression-ratio>-->
+</piston_engine>
