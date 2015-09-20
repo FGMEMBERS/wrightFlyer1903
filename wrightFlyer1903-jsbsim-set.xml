@@ -16,16 +16,19 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
 ************************************************************************
 -->
 
-<PropertyList>
+<PropertyList include="wrightFlyer1903-shared-set.xml">
 
- <sim nclude="wrightFlyer1903-shared-set.xml">
+ <sim>
 
-  <description>1903 Wright Flyer (UIUC)</description>
-  <author>Jim Wilson (3D), Michael Selig, PhD (FDM)</author>
+  <description>1903 Wright Flyer (JSB)</description>
+  <author>Jim Wilson (3D), Michael Selig, PhD (FDM), Erik Hofman (ported to JSSBim)</author>
 
-  <flight-model>larcsim</flight-model>
-  <aero>uiuc</aero>
-  <uiuc-type>uiuc-prop</uiuc-type>
+  <flight-model>jsb</flight-model>
+  <aero>wrightFlyer1903</aero>
+
+  <model>
+   <path>Aircraft/wrightFlyer1903/Models/WrightFlyer-pb-jw.xml</path>
+  </model>
 
  </sim>
 </PropertyList>
