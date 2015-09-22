@@ -33,19 +33,19 @@
 -->
 
 <piston_engine name="wright1903">
-  <minmp unit="INHG">          6.0 </minmp>
-  <maxmp unit="INHG">         28.5 </maxmp>
-  <displacement unit="IN3"> 201.0 </displacement>
-  <maxhp>        12.00 </maxhp>
-  <cycles>         4.0 </cycles>
+  <minmp unit="INHG">          6.0 </minmp>		<!-- Flyer -->
+  <maxmp unit="INHG">         28.5 </maxmp>		<!-- Flyer -->
+  <displacement unit="IN3"> 201.0 </displacement>	<!-- Flyer -->
+  <maxhp>        12.00 </maxhp>				<!-- Flyer -->
+  <cycles>         4.0 </cycles>			<!-- Flyer -->
   <idlerpm>      980.0 </idlerpm>
-  <maxrpm>      1025.0 </maxrpm>
+  <maxrpm>      1025.0 </maxrpm>			<!-- Flyer -->
   <maxthrottle>    1.0 </maxthrottle><!-- Deprecated -->
   <minthrottle>    0.1 </minthrottle><!-- Deprecated -->
   <sparkfaildrop>  0.1 </sparkfaildrop>
-  <stroke unit="IN">  4.0  </stroke>
-  <bore unit="IN">    4.0 </bore>
-  <cylinders>         4.0  </cylinders>
+  <stroke unit="IN">  4.0  </stroke>			<!-- Flyer -->
+  <bore unit="IN">    4.0 </bore>			<!-- Flyer -->
+  <cylinders>         4.0  </cylinders>			<!-- Flyer -->
   <volumetric-efficiency> 0.85 </volumetric-efficiency>
 <!-- Optional items that affect engine performance -->
  <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
