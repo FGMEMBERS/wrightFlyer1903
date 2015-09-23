@@ -15,7 +15,7 @@
  Sources:
  http://www.wright-brothers.org/Information_Desk/Just_the_Facts/Engines_&_Props/1903_Engine.htm
  http://www.wright-brothers.org/Information_Desk/Help_with_Homework/Help_with_Homework_Intro/Flyer_Specifications_11x17.pdf
- https://en.wikipedia.org/wiki/Wright_Flyer#Specifications_.28Wright_Flyer.29
+ http://www.gutenberg.org/files/38739/38739-h/38739-h.htm
 
  Specifications:
 
@@ -33,22 +33,24 @@
 -->
 
 <piston_engine name="wright1903">
-  <minmp unit="INHG">          6.0 </minmp>		<!-- Flyer -->
-  <maxmp unit="INHG">         28.5 </maxmp>		<!-- Flyer -->
+  <minmp unit="INHG">         99.7 </minmp>		<!-- Gutenberg -->
+  <maxmp unit="INHG">        107.9 </maxmp>		<!-- Gutenberg -->
   <displacement unit="IN3"> 201.0 </displacement>	<!-- Flyer -->
-  <maxhp>        12.00 </maxhp>				<!-- Flyer -->
+  <maxhp>        16.00 </maxhp>				<!-- Flyer -->
   <cycles>         4.0 </cycles>			<!-- Flyer -->
-  <idlerpm>      980.0 </idlerpm>
-  <maxrpm>      1025.0 </maxrpm>			<!-- Flyer -->
+  <idlerpm>      670.0 </idlerpm>			<!-- Gutenberg -->
+  <maxrpm>      1200.0 </maxrpm>			<!-- Gutenberg -->
   <maxthrottle>    1.0 </maxthrottle><!-- Deprecated -->
   <minthrottle>    0.1 </minthrottle><!-- Deprecated -->
   <sparkfaildrop>  0.1 </sparkfaildrop>
   <stroke unit="IN">  4.0  </stroke>			<!-- Flyer -->
   <bore unit="IN">    4.0 </bore>			<!-- Flyer -->
   <cylinders>         4.0  </cylinders>			<!-- Flyer -->
-  <volumetric-efficiency> 0.85 </volumetric-efficiency>
+  <compression-ratio> 4.4 </compression-ratio>		<!-- Gutenberg -->
+  <volumetric-efficiency> 0.39 </volumetric-efficiency>	<!-- Gutenberg -->
+
 <!-- Optional items that affect engine performance -->
  <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
  <!--<bsfc>           0.45 </bsfc>-->
- <!--<compression-ratio> 8.0 </compression-ratio>-->
+
 </piston_engine>
