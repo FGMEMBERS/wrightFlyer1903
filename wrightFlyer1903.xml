@@ -90,7 +90,7 @@
 -->
 
  <metrics>
-   <wingarea  unit="FT2">  518.00 </wingarea>		<!-- UIUC -->
+   <wingarea  unit="FT2">  510.00 </wingarea>		<!-- UIUC -->
    <wingspan  unit="FT" >   40.33 </wingspan>		<!-- UIUC -->
    <wing_incidence>          3.25 </wing_incidence>	<!-- Flyer -->
    <chord     unit="FT" >    6.20 </chord>		<!-- UIUC -->
@@ -99,9 +99,9 @@
    <vtailarea unit="FT2">   20.00 </vtailarea>		<!-- Flyer -->
    <vtailarm  unit="FT" >    6.50 </vtailarm>		<!-- UIUC -->
    <location name="AERORP" unit="IN">
-     <x>   0.0 </x>
+     <x>  -4.3 </x>
      <y>   0.0 </y>
-     <z>   0.0 </z>
+     <z> -17.0 </z>
    </location>
    <location name="EYEPOINT" unit="IN">			<!-- Model -->
      <x> -30.5 </x>
@@ -123,7 +123,7 @@
    <location name="CG" unit="IN">			<!-- UIUC -->
      <x>   0.0 </x>
      <y>   0.0 </y>
-     <z>   0.0 </z>
+     <z> -23.0 </z>
    </location>
    <pointmass name="Pilot">
     <description> 145 lbs pilot </description>
@@ -939,19 +939,7 @@
     </function>
 
     <function name="aero/coefficient/Yaw_roll_rate">
-       <description>Roll moment due to roll rate</description>
-       <product>
-           <property>aero/qbar-psf</property>
-           <property>metrics/Sw-sqft</property>
-           <property>metrics/bw-ft</property>
-           <property>aero/bi2vel</property>
-           <property>velocities/p-rad_sec</property>
-           <value>-0.5</value>			<!-- UIUC -->
-       </product>
-    </function>
-
-    <function name="aero/coefficient/Cnp">
-       <description>Yaw_moment_due_to_roll_rate</description>
+       <description>Yaw moment due to roll rate</description>
        <product>
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
