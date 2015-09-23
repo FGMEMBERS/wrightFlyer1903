@@ -338,8 +338,20 @@
 
   <channel name="Yaw">
 
-   <aerosurface_scale name="Rudder Control">
+   <!-- wing warp - rudder interlink -->
+   <pure_gain name="fcs/scheduled-aileron">
+      <input>fcs/aileron-cmd-norm</input>
+      <gain>-0.25</gain>
+   </pure_gain>
+
+   <summer name="fcs/auto-coordination">
+      <input>fcs/scheduled-aileron</input>
       <input>fcs/rudder-cmd-norm</input>
+   </summer>
+   <!-- end of wing warp - rudder interlink -->
+
+   <aerosurface_scale name="Rudder Control">
+      <input>fcs/auto-coordination</input>
       <range>
         <min> -0.74 </min>			<!-- UIUC -->
         <max>  0.74 </max>			<!-- UIUC -->
