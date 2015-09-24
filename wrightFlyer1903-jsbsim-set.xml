@@ -30,5 +30,14 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
    <path>Aircraft/wrightFlyer1903/Models/WrightFlyer-pb-jw.xml</path>
   </model>
 
+  <view>
+   <internal archive="y">true</internal>
+   <config>
+     <x-offset-m archive="y">-0.46</x-offset-m>
+     <y-offset-m archive="y">-0.08</y-offset-m>
+     <z-offset-m archive="y">-0.82</z-offset-m>
+   </config>
+  </view>
+
  </sim>
 </PropertyList>
