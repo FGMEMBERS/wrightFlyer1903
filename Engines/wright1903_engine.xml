@@ -32,25 +32,21 @@
  "The completed engine weighed 180 pounds and developed 12 horsepower at 1,025 revolutions per minute. [It actually produced nearly 16 hp when it was first started, by this dropped to 12 hp as the engine heated up.]
 -->
 
-<piston_engine name="wright1903">
-  <minmp unit="INHG">         99.7 </minmp>		<!-- Gutenberg -->
-  <maxmp unit="INHG">        107.9 </maxmp>		<!-- Gutenberg -->
+<piston_engine name="Wright 1903">
+  <minmp unit="INHG">         12.0 </minmp>
+  <maxmp unit="INHG">         29.0 </maxmp>
   <displacement unit="IN3"> 201.0 </displacement>	<!-- Flyer -->
   <maxhp>        16.00 </maxhp>				<!-- Flyer -->
+  <!--bsfc>           0.45 </bsfc-->
   <cycles>         4.0 </cycles>			<!-- Flyer -->
-  <idlerpm>      670.0 </idlerpm>			<!-- Gutenberg -->
+  <idlerpm>     1050.0 </idlerpm>			<!-- Gutenberg -->
   <maxrpm>      1200.0 </maxrpm>			<!-- Gutenberg -->
   <maxthrottle>    1.0 </maxthrottle><!-- Deprecated -->
   <minthrottle>    0.1 </minthrottle><!-- Deprecated -->
-  <sparkfaildrop>  0.1 </sparkfaildrop>
+  <sparkfaildrop>  0.0 </sparkfaildrop>
   <stroke unit="IN">  4.0  </stroke>			<!-- Flyer -->
   <bore unit="IN">    4.0 </bore>			<!-- Flyer -->
   <cylinders>         4.0  </cylinders>			<!-- Flyer -->
   <compression-ratio> 4.4 </compression-ratio>		<!-- Gutenberg -->
   <volumetric-efficiency> 0.39 </volumetric-efficiency>	<!-- Gutenberg -->
-
-<!-- Optional items that affect engine performance -->
- <!-- Defining <bsfc> over-rides the built-in horsepower calculations -->
- <!--<bsfc>           0.45 </bsfc>-->
-
 </piston_engine>
