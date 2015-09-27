@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+
+1903 Wright Flyer simulation config used to tie together the flight
+data model, instrument panel, and visual model.
+
+Flight model details: 
+Aircraft/UIUC/wrightFlyer1903-v1-nl/README.wrightFlyer1903.html
+
+Visual model details:  
+Aircraft/wrightFlyer1903/Models/
+(courtesy of Jim Wilson, jimw@kelcomaine.com)
+
+Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
+************************************************************************
+-->
+
+<PropertyList include="wrightFlyer1903-shared-set.xml">
+
+ <sim>
+
+  <description>1905 Wright Flyer III (JSB)</description>
+  <author>Jim Wilson (3D), Michael Selig, PhD (FDM), Erik Hofman (ported to JSSBim)</author>
+
+  <status>production</status>
+  <rating>
+    <FDM type="int">5</FDM>
+    <systems type="int">3</systems>
+    <cockpit type="int">5</cockpit>
+    <model type="int">5</model>
+  </rating>
+
+  <flight-model>jsb</flight-model>
+  <aero>wrightFlyer1905</aero>
+
+  <model>
+   <path>Aircraft/wrightFlyer1903/Models/WrightFlyer-pb-jw.xml</path>
+  </model>
+
+  <view>
+   <internal archive="y">true</internal>
+   <config>
+     <x-offset-m archive="y">-0.46</x-offset-m>
+     <y-offset-m archive="y">-0.08</y-offset-m>
+     <z-offset-m archive="y">-0.82</z-offset-m>
+   </config>
+  </view>
+
+ </sim>
+
+ <consumables>
+  <fuel>
+   <tank n="0">
+    <level-gal_us type="float">0.171875</level-gal_us>
+   </tank>
+  </fuel>
+ </consumables>
+
+</PropertyList>
