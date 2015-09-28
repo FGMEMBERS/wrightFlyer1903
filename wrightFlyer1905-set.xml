@@ -20,7 +20,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
 
  <sim>
 
-  <description>1905 Wright Flyer III (JSB)</description>
+  <description>1905 Wright Flyer III (JSBSim)</description>
   <author>Jim Wilson (3D), Michael Selig, PhD (FDM), Erik Hofman (ported to JSSBim)</author>
 
   <status>production</status>
@@ -33,6 +33,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
 
   <flight-model>jsb</flight-model>
   <aero>wrightFlyer1905</aero>
+  <variant-of>wrightFlyer1903</variant-of>
 
   <model>
    <path>Aircraft/wrightFlyer1903/Models/WrightFlyer-pb-jw.xml</path>

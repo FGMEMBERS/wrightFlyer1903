@@ -20,7 +20,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
 
  <sim>
 
-  <description>1903 Wright Flyer (JSB)</description>
+  <description>1903 Wright Flyer I (JSBSim)</description>
   <author>Jim Wilson (3D), Michael Selig, PhD (FDM), Erik Hofman (ported to JSSBim)</author>
 
   <status>production</status>
