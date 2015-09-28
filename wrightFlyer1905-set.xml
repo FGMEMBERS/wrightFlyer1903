@@ -52,7 +52,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
  <consumables>
   <fuel>
    <tank n="0">
-    <level-gal_us type="float">0.171875</level-gal_us>
+    <level-gal_us type="float">3.0</level-gal_us>
    </tank>
   </fuel>
  </consumables>

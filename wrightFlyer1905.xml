@@ -354,8 +354,8 @@
        <y>  37.2 </y>
        <z>  20.2 </z>
      </location>
-     <capacity unit="LBS">   3.00 </capacity>		<!-- Flyer -->
-     <contents unit="LBS">   2.50 </contents>
+     <capacity unit="LBS">  22.00 </capacity>		<!-- Flyer III -->
+     <contents unit="LBS">  20.00 </contents>
   </tank>
 
  </propulsion>
