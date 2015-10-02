@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<PropertyList>
+ <help>
+   <title>1903 Wright Flyer I</title>
+  <key>
+   <name>s</name>
+   <desc>Start Engine</desc>
+  </key>
+  <key>
+   <name>~</name>
+   <desc>ignition ON</desc>
+  </key>
+  <key>
+   <name>{</name>
+   <desc>magneto OFF</desc>
+  </key>
+  <key>
+   <name>}</name>
+   <desc>magneto ON</desc>
+  </key>
+  <line>Starting</line>
+  <line> </line>
+  <line>To start, press '~' to turn on ignition and press '}' twice to set magnetos to 2</line>
+  <line>Engage full throttle. Then press and hold 's' until the engine catches -- it may</line>
+  <line>take several seconds.</line>
+  <line> </line>
+  <line>Take Off</line>
+  <line>Modern analysis shows that The 1903 wright flyer produced enough thrust to</line>
+  <line>accelerate to 31 mph against a 24 mph wind. It would not have been possible to</line>
+  <line>accelerate to flying speed without a strong wind down the launch rail.</line>
+  <line>Lift off speed is 23 mph in ground effect.</line>
+
+ </help>
+</PropertyList>
+

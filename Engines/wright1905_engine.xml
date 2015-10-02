@@ -22,8 +22,8 @@
     Cylinders: 4
     Stroke: 4 in (10.2 cm)
     Bore: 4 in (10.2 cm)
-    Displacement: 201 in3 (3.3 l)
-    Horsepower: 12
+    Displacement: 208 in3 (3.4 l)
+    Horsepower: 21
     Ignition: Make-and-brake powered by low-tension (10-volt) magneto.
     Unique features: Aluminum block, no carburetor.
     Weight of engine: 152 lbs (68.95 kg)
@@ -35,12 +35,12 @@
 <piston_engine name="Wright 1903">
   <minmp unit="INHG">         12.0 </minmp>
   <maxmp unit="INHG">         29.0 </maxmp>
-  <displacement unit="IN3"> 201.0 </displacement>	<!-- Flyer -->
-  <maxhp>        16.00 </maxhp>				<!-- Flyer -->
+  <displacement unit="IN3"> 208.0 </displacement>	<!-- Flyer -->
+  <maxhp>        24.00 </maxhp>				<!-- Flyer III -->
   <!--bsfc>           0.45 </bsfc-->
   <cycles>         4.0 </cycles>			<!-- Flyer -->
   <idlerpm>     1050.0 </idlerpm>			<!-- Gutenberg -->
-  <maxrpm>      1200.0 </maxrpm>			<!-- Gutenberg -->
+  <maxrpm>      1300.0 </maxrpm>			<!-- Gutenberg -->
   <maxthrottle>    1.0 </maxthrottle><!-- Deprecated -->
   <minthrottle>    0.1 </minthrottle><!-- Deprecated -->
   <sparkfaildrop>  0.0 </sparkfaildrop>

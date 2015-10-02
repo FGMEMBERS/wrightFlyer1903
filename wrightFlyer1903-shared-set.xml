@@ -18,7 +18,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
 
 <PropertyList>
 
- <sim>
+ <sim include="help.xml">
 
   <!-- auto-coordination>true</auto-coordination -->
 
