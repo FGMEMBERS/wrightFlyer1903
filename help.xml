@@ -18,6 +18,14 @@
    <name>}</name>
    <desc>magneto ON</desc>
   </key>
+  <key>
+   <name>L</name>
+   <desc>Engage/Disengage launchbar</desc>
+  </key>
+  <key>
+   <name>C</name>
+   <desc>Release Catapult</desc>
+  </key>
   <line>Starting</line>
   <line> </line>
   <line>To start, press '~' to turn on ignition and press '}' twice to set magnetos to 2</line>

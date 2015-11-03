@@ -376,6 +376,8 @@
 
  </propulsion>
 
+ <system file="Catapult.xml"/>
+
  <flight_control name="FCS: unnamed">
 
   <channel name="Pitch">
@@ -499,6 +501,7 @@
       <product>
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
+          <property>aero/function/kCLge</property>
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <independentVar lookup="column">fcs/elevator-pos-rad</independentVar>
@@ -550,6 +553,7 @@
        <product>
           <property>aero/qbar-psf</property>
           <property>metrics/Sw-sqft</property>
+          <property>aero/function/kCDge</property>
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>			<!-- UIUC: CDfa.dat -->
@@ -1097,6 +1101,18 @@
  </aerodynamics>
 
  <external_reactions>
+  <force name="catapult" frame="BODY">
+   <location unit="IN">
+    <x> 0 </x>
+    <y> 0 </y>
+    <z> 0 </z>
+   </location>
+   <direction>
+    <x> 1 </x>
+    <y> 0 </y>
+    <z> 0 </z>
+   </direction>
+   </force>
  </external_reactions>
 
 </fdm_config>
