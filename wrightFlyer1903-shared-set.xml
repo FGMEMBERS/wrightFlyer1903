@@ -63,14 +63,14 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
                print("Disengage launchbar");
                setprop("fdm/jsbsim/systems/catapult/cat-launch-cmd",0);
                setprop("fdm/jsbsim/systems/holdback/holdback-cmd",0);
-               setprop("/controls/gear/brake-parking",1);
+               setprop("/controls/gear/brake-parking",0);
                }
                else
                {
                print("Engage launchbar");
                setprop("fdm/jsbsim/systems/catapult/cat-launch-cmd",0);
                setprop("fdm/jsbsim/systems/holdback/holdback-cmd",1);
-               setprop("/controls/gear/brake-parking",0);
+               setprop("/controls/gear/brake-parking",1);
                }
            </script>
        </binding>
@@ -85,6 +85,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
                if (getprop("fdm/jsbsim/systems/holdback/holdback-cmd"))
                {
                print("Catapult launch");
+               setprop("/controls/gear/brake-parking",0);
                setprop("fdm/jsbsim/systems/catapult/cat-launch-cmd",1);
                setprop("fdm/jsbsim/systems/holdback/holdback-cmd",0);
                }
