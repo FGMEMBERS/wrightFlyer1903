@@ -49,4 +49,53 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
 
  </sim>
 
+ <input>
+  <keyboard>
+   <key n="76">
+       <!-- map keys for launch-bar -->
+       <name>L</name>
+       <desc>Launch-bar engage.</desc>
+       <binding>
+           <command>nasal</command>
+           <script>
+               if (getprop("fdm/jsbsim/systems/holdback/holdback-cmd"))
+               {
+               print("Disengage launchbar");
+               setprop("fdm/jsbsim/systems/catapult/cat-launch-cmd",0);
+               setprop("fdm/jsbsim/systems/holdback/holdback-cmd",0);
+               setprop("/controls/gear/brake-parking",0);
+               }
+               else
+               {
+               print("Engage launchbar");
+               setprop("fdm/jsbsim/systems/catapult/cat-launch-cmd",0);
+               setprop("fdm/jsbsim/systems/holdback/holdback-cmd",1);
+               setprop("/controls/gear/brake-parking",1);
+               }
+           </script>
+       </binding>
+   </key>
+   <!-- map keys for catapult launch -->
+   <key n="67">
+       <name>C</name>
+       <desc>Catapult Launch Command.</desc>
+       <binding>
+           <command>nasal</command>
+           <script>
+               if (getprop("fdm/jsbsim/systems/holdback/holdback-cmd"))
+               {
+               print("Catapult launch");
+               setprop("/controls/gear/brake-parking",0);
+               setprop("fdm/jsbsim/systems/catapult/cat-launch-cmd",1);
+               setprop("fdm/jsbsim/systems/holdback/holdback-cmd",0);
+               }
+               else
+               {
+               }
+           </script>
+       </binding>
+   </key>
+  </keyboard>
+ </input>
+
 </PropertyList>
