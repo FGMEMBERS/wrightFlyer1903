@@ -2,8 +2,14 @@
 <system name="Catapult">
   <property value="0">systems/catapult/cat-pos-norm</property>
   <property value="0">systems/catapult/cat-launch-cmd</property>
-  <property value="1350">systems/catapult/cat-force</property>
+  <property value="467">systems/catapult/cat-force</property>
 
+  <!--
+    http://wrightbrothershistory.blogspot.nl/2015_07_01_archive.html
+    Derrick. Drop 16 1/2 (ft). Geared 3:1 = 50ft.
+             Wt. 1,200 lbs. (Friday, September 9, 1904)
+             Wt. 1,400 lbs (Monday, September 26, 1904)
+   -->
   <channel name="Catapult">
     <switch name="Catapult Command">
       <default value="0"/>
@@ -25,7 +31,7 @@
        </setting>
        <setting>
           <position> 1 </position>
-          <time>     1.2 </time>
+          <time>     3.6 </time>
        </setting>
      </traverse>
      <output>systems/catapult/cat-pos-norm</output>
