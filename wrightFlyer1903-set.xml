@@ -5,10 +5,10 @@
 1903 Wright Flyer simulation config used to tie together the flight
 data model, instrument panel, and visual model.
 
-Flight model details: 
+Flight model details:
 Aircraft/UIUC/wrightFlyer1903-v1-nl/README.wrightFlyer1903.html
 
-Visual model details:  
+Visual model details:
 Aircraft/wrightFlyer1903/Models/
 (courtesy of Jim Wilson, jimw@kelcomaine.com)
 
@@ -16,7 +16,7 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
 ************************************************************************
 -->
 
-<PropertyList include="wrightFlyer1903-shared-set.xml">
+<PropertyList include="wrightFlyer1903-base.xml">
 
  <sim>
 
