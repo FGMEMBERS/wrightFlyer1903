@@ -17,6 +17,8 @@
           systems/catapult/cat-pos-norm gt 0.999
       </test>
       <test logic="AND" value="1">
+          gear/unit[1]/WOW eq 1
+          gear/unit[2]/WOW eq 1
           systems/catapult/cat-launch-cmd == 1
       </test>
       <output>systems/catapult/cat-launch-cmd</output>
@@ -40,6 +42,8 @@
    <switch name="Catapult Final">
      <default value="0"/>
      <test logic="AND" value="systems/catapult/cat-force">
+         gear/unit[1]/WOW eq 1
+         gear/unit[2]/WOW eq 1
          systems/catapult/cat-launch-cmd == 1
          systems/catapult/cat-pos-norm lt 0.999
          systems/catapult/cat-pos-norm gt 0.0
