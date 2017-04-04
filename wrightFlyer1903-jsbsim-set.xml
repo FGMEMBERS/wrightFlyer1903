@@ -30,8 +30,18 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
     <cockpit type="int">5</cockpit>
     <model type="int">5</model>
   </rating>
+  <tags>
+    <tag>wright</tag>
+    <tag>triplane</tag>
+    <tag>skids</tag>
+    <tag>single-engine</tag>
+    <tag>piston</tag>
+    <tag>fixed-pitch</tag>
+    <tag>early-pioneers</tag>
+    <tag>canard</tag>
+    <tag>experimental</tag>
+  </tags>
 
-  <flight-model>jsb</flight-model>
   <aero>wrightFlyer1903</aero>
   <variant-of>wrightFlyer1903</variant-of>
   
