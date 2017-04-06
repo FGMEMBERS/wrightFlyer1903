@@ -4,6 +4,22 @@
 
  <path>WrightFlyer-pb-jw.ac</path>
 
+ <!-- effects -->
+
+ <effect>
+  <inherits-from>Aircraft/wrightFlyer1903/Models/Effects/bumpspec-metal</inherits-from>
+  <object-name>metal</object-name>
+ </effect>
+ <effect>
+  <inherits-from>Aircraft/wrightFlyer1903/Models/Effects/bumpspec-wood</inherits-from>
+  <object-name>wood</object-name>
+  <object-name>propellers</object-name>
+ </effect>
+ <effect>
+  <inherits-from>Aircraft/wrightFlyer1903/Models/Effects/bumpspec-fabric</inherits-from>
+  <object-name>fabric</object-name>
+ </effect>
+
  <!-- object selection -->
 
  <!-- hide hat if view is pilot's eye (or very near Orville's face) -->
