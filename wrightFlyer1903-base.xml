@@ -20,6 +20,10 @@ Last update: Dec 21, 2002 Michael Selig, m-selig@uiuc.edu
 
  <sim include="help.xml">
 
+  <long-description>
+   The Wright Flyer was the first successful heavier-than-air powered aircraft. It was designed and built by the Wright brothers. They flew it four times on December 17, 1903, near Kill Devil Hills, about four miles south of Kitty Hawk, North Carolina, US.
+  </long-description>
+
   <!-- auto-coordination>true</auto-coordination -->
 
   <sound>
